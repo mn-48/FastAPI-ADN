@@ -6,12 +6,12 @@ import cloudinary
 
 cloudinary.config(
     cloud_name= "my_cloudinary",
-    api_key= "927131722149478",
+    api_key= "my_apiKey",
     api_secret ="he5lFnOeoeRDBmV9z9QKCTxhLn0"
 )
 
-SQLALCHEMY_DATABASE_URL = "sqlite:///./sql_app.db"
-# SQLALCHEMY_DATABASE_URL = "postgres://audcltysmukkjt:fa3bf618e3522f1adea51b8ae6ca778c3fdd2e70b9a2f68defcd7e588cf0a024@ec2-52-71-161-140.compute-1.amazonaws.com:5432/del74sq4ertbru"
+# SQLALCHEMY_DATABASE_URL = "sqlite:///./sql_app.db"
+SQLALCHEMY_DATABASE_URL = "postgres://postgres_user:postgres_passwoed@postgres:5432/postgres_db"
 
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL,
