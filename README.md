@@ -1,5 +1,5 @@
 ﻿# Prerequite 
- *Cloudinary API Key*
+ *Cloudinary Name, API Key and Secret Key*
 # Run this project via docker-compose
 ```
 docker-compose up -d
