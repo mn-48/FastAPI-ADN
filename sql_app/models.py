@@ -1,6 +1,8 @@
 from sqlalchemy import Boolean, Column, ForeignKey, Integer, String,DateTime
 from sqlalchemy.orm import relationship
-from sqlalchemy_utils import EmailType,URLType
+# from sqlalchemy_utils import EmailType,URLType
+from sqlalchemy_utils.types import EmailType, URLType
+# pip install types-sqlalchemy-utils
 import datetime
 
 from .database import Base
